@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cdMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="4dp"
+        app:contentPadding="2dp">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+            android:background="@drawable/border_rectangle_with_radius_gray">
+        <TextView
+                android:id="@+id/tvBlogTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp"
+                android:text="xxxx"/>
+
+        <TextView
+                android:id="@+id/tvBlogDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBlogTitle"
+                android:text="April 09, 2019"/>
+
+        <ImageView
+                android:id="@+id/ivBlogImage"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:padding="5dp"
+                android:layout_below="@id/tvBlogDate"
+                android:src="@drawable/web_hi_res_512"/>
+
+        <TextView
+                android:id="@+id/tvBlogDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/secondary_text_light"
+                android:layout_toRightOf="@+id/ivBlogImage"
+                android:layout_below="@id/tvBlogDate"
+                android:text=""/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ivBlogImage"
+                android:textColor="@android:color/holo_blue_dark"
+                android:gravity="end"
+                android:text="See More"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

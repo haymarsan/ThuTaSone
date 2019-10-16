@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "897864214410",
+    "firebase_url": "https://appdemo-cce86.firebaseio.com",
+    "project_id": "appdemo-cce86",
+    "storage_bucket": "appdemo-cce86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897864214410:android:78fa14c81ebaa454b80a73",
+        "android_client_info": {
+          "package_name": "com.winhtetnaing.thutasone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897864214410-dv2mqrn6kfn5sgq6ah06its5f2a3eb5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.winhtetnaing.thutasone",
+            "certificate_hash": "91d9403eeea7508131444b4f13f833b93e0cdb33"
+          }
+        },
+        {
+          "client_id": "897864214410-b0pcorft7f3rimk5kr46i10sv6hqdk6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFnqoznleI7cTXr9KFtARTOGrbfx9W-XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897864214410-b0pcorft7f3rimk5kr46i10sv6hqdk6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
